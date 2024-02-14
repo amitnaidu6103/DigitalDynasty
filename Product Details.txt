@@ -1,0 +1,92 @@
+<!-- Product Details -->
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+    
+                <!-- Main image area -->
+                <div class="col-md-6">
+                    <div class="flex-box">
+                        <div class="left">
+                            <div class="url">Home > Mobiles</div>
+                            <div class="big-image">
+                                <img class="card-img-top mb-5 mb-md-0" id="mainImage" src="./assets/Mobile_Templates/Oneplus 11 5G/Oneplus11.jpg" alt="" />
+                            </div>
+                            <div class="images">
+                                <div class="small-img">
+                                    <img src="./assets/Mobile_Templates/Oneplus 11 5G/Oneplus11.jpg"
+                                        onclick="showImg(this.src)">
+                                </div>
+                                <div class="small-img">
+                                    <img src="./assets/Mobile_Templates/Oneplus 11 5G/Oneplus11_Front.jpg"
+                                        onclick="showImg(this.src)">
+                                </div>
+                                <div class="small-img">
+                                    <img src="./assets/Mobile_Templates/Oneplus 11 5G/Oneplus11_Back.jpg"
+                                        onclick="showImg(this.src)">
+                                </div>
+                                <div class="small-img">
+                                    <img src="./assets/Mobile_Templates/Oneplus 11 5G/Oneplus11_Side.jpg"
+                                        onclick="showImg(this.src)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="right">
+                        <div class="small mb-1" id="mobileSKU"></div>
+                        <h6 class="display-5 fw-bolder">OnePlus 11R 5G (Galactic Silver, 8GB RAM, 128GB Storage)</h6>
+                        <!-- Product reviews-->
+                        <div class="d-flex justify-content-start small text-warning mb-2">
+                            <div class="me-2 text-dark">4.4 </div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-fill"></div>
+                            <div class="bi-star-half"></div>
+                        </div>
+                        <div class="fs-5 mb-5">
+                            <!-- <span class="text-decoration-line-through">$45.00</span> -->
+                            <span>₹39,999</span>
+                        </div>
+                        <div class="d-flex quantity-no">
+                            <div class="quantity">
+                                <p>Quantity :</p>
+                                <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 5rem" />
+                            </div>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-outline-dark flex-shrink-0" id="cart-btn" type="button">
+                                <i class="bi-cart-fill me-1"></i>
+                                Add to cart
+                            </button>
+                            <button class="btn btn-outline-dark flex-shrink-0" id="buy-btn" type="button">
+                                Buy Now <i class="fas fa-bag-shopping"></i>
+                            </button>
+                        </div>
+                        <!-- Product Details In Depth -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h5>About This Item:</h5>
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><strong>Camera:</strong> 50MP Main Camera with Sony IMX890 (OIS supported), 48MP Ultrawide Camera with Sony IMX581 (FOV: 115 degree) and 32MP Telephoto lens with Sony IMX709 (2X Optical Zoom); 16MP Front (Selfie) Camera with EIS support</li>
+                                        <li class="list-group-item"><strong>Camera Modes:</strong> Photo, Video, Night, PRO, PANO, Portrait, TIME-LAPSE, SLO-MO, Text scanner, Movie, Long Exposure, Dual-view video, TILT-SHIFT, XPAN, Scan, STICKER, and AI ID photo</li>
+                                        <li class="list-group-item"><strong>Display:</strong> 6.7 Inches; 120 Hz AMOLED QHD Display with Corning Gorilla Glass Victus; Resolution: 3216 X 1440 pixels; HDR 10+, sRGB, 10-bit Color Depth, PWM + DC dimming</li>
+                                        <li class="list-group-item"><strong>Operating System:</strong> OxygenOS based on Android 13</li>
+                                        <li class="list-group-item"><strong>Processor:</strong> Snapdragon 8 Gen 2 Mobile Platform<br>16GB LPDDR5X RAM, 256GB UFS4.0 Storage</li>
+                                        <li class="list-group-item"><strong>Battery & Charging:</strong> 5000 mAh with 100W SUPERVOOC</li>
+                                        <li class="list-group-item"><strong>In-Display Fingerprint Sensor</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="lead">
+                            The OnePlus 11 5G is a high-end smartphone that offers powerful performance with the Snapdragon 855 processor and up to 8GB of RAM. It
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

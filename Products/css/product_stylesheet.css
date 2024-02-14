@@ -1,0 +1,27 @@
+.altImages {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.a-fixed-left-grid-col {
+    margin-right: 10px; /* Adjust as needed for spacing */
+}
+
+.a-col-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.thumbnail-image {
+    width: 60px; /* Adjust as needed for image size */
+    height: 60px;
+    margin-bottom: 5px; /* Adjust as needed for spacing between images */
+    cursor: pointer;
+}
+
+.small-image {
+    width: 40px; /* Adjust as needed for smaller image size */
+    height: 40px;
+}
